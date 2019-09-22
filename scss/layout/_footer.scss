@@ -1,0 +1,85 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+.footer-black {
+  ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+  background-color:$black-color;
+  p,strong,a {
+    font-size: 16px;
+    font-family: $basic-font;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+  }
+  p,h3,h2 {
+    color: $white-color;
+
+  }
+  a{
+    color: $skin-color;
+  }
+}
+.main-footer {
+    padding-top: 70px;
+    padding-right: 0px;
+    padding-bottom: 70px;
+    padding-left: 0px;
+}
+
+.footer-logo {
+    margin-bottom: 20px;
+}
+.footer-logo img {
+    height: 80px;
+}
+.tweet-text{
+  font-size: 16px;
+  color: $white-color;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 36px;
+
+}
+.latest_post .media {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+.media-body, .media-left, .media-right {
+    display: table-cell;
+    vertical-align: top;
+    a{
+      color: $white-color;
+    }
+}
+.latest_post .media-heading {
+    line-height: 20px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.entry-meta {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.latest_post .media-left {
+    padding-right: 15px;
+}
+
+.footer-black .sub-footer {
+    border-top: 1px solid #0e0e0e;
+    background-color: #0e0e0e;
+}
+.sub-footer{
+  text-align: center;
+  padding: 15px;
+  color: $white-color;
+  font-size: 16px;
+}

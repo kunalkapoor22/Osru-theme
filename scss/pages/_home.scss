@@ -1,0 +1,26 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+body {
+  font-family: $basic-font;
+}
+.insta-link {
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.insta-content {
+    position: relative;
+}
+
+
+.ri-grid-size-2 {
+    width: 100%;
+}
+.ri-grid {
+    position: relative;
+    height: auto;
+}
